@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlipCart - Online Shopping</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">FlipCart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link home" href="#home-section">Home</a></li>
+          <li class="nav-item"><a class="nav-link discount" href="#product-section">Discount</a></li>
+          <li class="nav-item"><a class="nav-link offers" href="#offers-section">Offers</a></li>
+          <li class="nav-item"><a class="nav-link cart" href="#">Cart 🛒 <span class="cart-count" id="cart-count">0</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="home-section" class="container text-center my-5">
+    <h1 class="display-4 text-primary">Welcome to FlipCart!</h1>
+    <p class="lead">Amazing products with exciting discounts 🛍️</p>
+  </section>
+
+
+  <section id="product-section" class="container my-5">
+    <h2 class="text-center mb-4">Discounted Products</h2>
+    <div class="row" id="product-list">
+
+    </div>
+  </section>
+
+  <section id="offers-section" class="container my-5 text-center">
+    <h2>Special Offers</h2>
+    <p class="lead">Grab amazing deals before they run out! 💥</p>
+    <div class="row justify-content-center">
+      <div class="col-md-6 mb-3">
+        <div class="card shadow p-3" style="background-color:#ffccff;">Buy 2 Get 1 Free on Accessories!</div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div class="card shadow p-3" style="background-color:#ccffff;">Flat 20% Off on Electronics!</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 FlipCart. All Rights Reserved.</p>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

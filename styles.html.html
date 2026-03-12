@@ -1,0 +1,60 @@
+
+body {
+  background: linear-gradient(to right, #ffe6f0, #e0f7fa);
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth; /* smooth scroll */
+}
+
+
+.navbar { background-color: #ff6f91 !important; }
+.navbar-brand { color: white !important; font-weight: bold; }
+.nav-link {
+  font-weight: bold;
+  color: white !important;
+  margin-right: 10px;
+  padding:5px 10px;
+  border-radius:5px;
+  transition:0.3s;
+}
+.nav-link.home { background-color: #ff5733; }
+.nav-link.discount { background-color: #33ff57; }
+.nav-link.offers { background-color: #3357ff; }
+.nav-link.cart { background-color: #ffb347; position: relative; }
+.nav-link:hover { opacity:0.8; }
+
+.cart-count {
+  background-color: yellow;
+  border-radius:50%;
+  padding:2px 8px;
+  font-weight:bold;
+  color:black;
+  position:absolute;
+  top:0;
+  right:0;
+  font-size:0.8rem;
+}
+
+h1.display-4 { font-weight: bold; }
+
+
+.product-card { border-radius:15px; transition: transform 0.3s; cursor:pointer; position:relative; }
+.product-card:hover { transform: scale(1.05); }
+
+.btn-add { background-color:#ff9f43; color:white; font-weight:bold; }
+.btn-add:hover { background-color:#ff6f91; color:white; }
+
+.badge-discount {
+  position:absolute;
+  top:10px;
+  left:10px;
+  background:red;
+  color:white;
+  font-weight:bold;
+  padding:5px 10px;
+  border-radius:10px;
+}
+
+
+footer { background-color:#ff6f91; color:white; padding:20px 0; text-align:center; margin-top:50px; }
+
+section { padding: 80px 0; }
